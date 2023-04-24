@@ -14,4 +14,4 @@ Cria uma build do projeto na pasta `build` dentro da pasta em que o app está lo
 
 ## 😉 Obrigado por ler até aqui
 
-Projeto criado por `Carlos Henrique`, acompanhe meus outros projetos e estudos no [github]("https://github.com/Carlos-1436")
+Projeto criado por `Carlos Henrique`, acompanhe meus outros projetos e estudos no github!
