@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.ListContainer {
+    max-width: 20em;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #333f4a;
+    box-shadow: 0 0 25px black;
+    border-radius: 5px;
+}
+
+.ListTitle {
+    background-color: #0d1115;
+    padding: 0.5em;
+    border-radius: 5px 5px 15px 15px;
+}
+
+.CreationToDo {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+
+.CreationToDo input {
+    margin: 1em;
+    width: 100%;
+    height: 1.5em;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgb(205, 205, 205);
+    padding: 0.2em;
+    box-shadow: 0 1.5px 1px black;
+}
+
+.CreationToDo button {
+    margin: 1em;
+    width: 30%;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #1e8a1c;
+    padding: 0.2em;
+    background-color: #1e6d2f;
+    color: white;
+    box-shadow: 0 2px 1px #0b2911;
+}
+
+.ItemsList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ToDoItem {
+    background-color: rgb(48, 46, 46);
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 3px solid rgb(30, 30, 30);
+    padding: 0.2em;
+}
+
+.ToDoItem p {
+    text-align: left;
+    font-size: small;
+    margin: 4px;
+}
+
+.ToDoItemButtons {
+    display: flex;
+    flex-flow: row;
+}
+
+.ToDoItemButtons button {
+    width: 100%;
+    height: 1.5em;
+    margin: 2px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.ToDoItemButtons button:first-child {
+    background-color: rgb(62, 194, 62);
+    box-shadow: 0 2px 2px rgb(23, 114, 23);
+}
+
+.ToDoItemButtons button:last-child {
+    background-color: rgb(194, 62, 62);
+    box-shadow: 0 2px 2px rgb(114, 23, 23);
+}
+
+.checkedTodo {
+    text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+    min-width: 8%;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: none;
+    animation-name: translating;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
+}
+
+@keyframes translating {
+    100% {
+        transform: translateY(1px);
+    }
+}
